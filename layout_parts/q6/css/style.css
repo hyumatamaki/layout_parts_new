@@ -1,5 +1,77 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+body {
+  width: 100%;
+}
+
+.q6--horizontal .text {
+  width: 90px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #e6f2ff;
+}
+
+.q6--horizontal .text_align .item-wrap {
+   text-align: center;
+}
+
+.q6--horizontal .text_align .item-wrap .text {
+  display: inline-block;
+}
+
+.q6--horizontal .margin .text {
+  display: block;
+  margin: 0 auto;
+}
+
+.q6--around .text{
+  padding: 10px;
+  background-color: #fff;
+}
+
+.q6--around.text_table {
+  display: table;
+}
+
+.q6--around.text_table .item_wrap {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6--around.text_table  .item_wrap .text {
+  display: inline-block;
+}
+
+.q6--around.text_flex {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6--position.text_position .is-stable.item_wrap {
+  position: relative;
+}
+
+.q6--position.text_position .is-stable.item_wrap .position{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.is-flexible.text_position_flexible {
+  position: relative;
+}
+
+.is-flexible.text_position_flexible .position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
 
 /* 回答はここに書いてね */
