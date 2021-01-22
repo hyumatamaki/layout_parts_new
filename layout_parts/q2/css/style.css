@@ -2,4 +2,32 @@
 
 /* 回答はここに書いてね */
 
+body {
+  width: 100%;
+}
+
+.text_wrap {
+  width: 940px;
+  padding: 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #eff3f4;
+}
+
+.q2 p {
+  word-break: break-all;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+img.example1 {
+  float: left;
+  margin-right: 20px;
+}
+
+img.example2 {
+  float: right;
+  margin-left: 20px;
+}
+
 /* 回答はここに書いてね */
