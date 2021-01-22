@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+body {
+  width: 100%;
+}
 
+.wrap {
+  margin: 0 auto;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border: solid #dedede 1px;
+}
+
+table tr:nth-child(odd) td {
+	background-color: #ecf1f2;
+}
+
+tr, td {
+  border: solid #dedede 1px;
+}
+
+th {
+  /* padding: 10px 0; */
+  border: solid #dedede 1px;
+  color: #ffff;
+  background-color: #2244aa;
+}
+
+.total {
+  border-top: dashed 2px #000;
+}
 /* 回答はここに書いてね */
