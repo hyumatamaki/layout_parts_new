@@ -1,77 +1,58 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-body {
-  width: 100%;
+.header-box {
+  /* display: block; --必要？ */
+  text-align: center;
 }
 
-.q6--horizontal .text {
+.header-text {
   width: 90px;
   padding: 10px 0;
   text-align: center;
   background-color: #e6f2ff;
-}
-
-.q6--horizontal .text_align .item-wrap {
-   text-align: center;
-}
-
-.q6--horizontal .text_align .item-wrap .text {
-  display: inline-block;
-}
-
-.q6--horizontal .margin .text {
-  display: block;
   margin: 0 auto;
 }
 
-.q6--around .text{
-  padding: 10px;
-  background-color: #fff;
-}
-
-.q6--around.text_table {
+.main {
   display: table;
 }
 
-.q6--around.text_table .item_wrap {
+.content {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q6--around.text_table  .item_wrap .text {
+.content-text {
   display: inline-block;
+  padding: 10px;
+  background-color: #fff;
 }
 
-.q6--around.text_flex {
+.q6--around.content {
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
-.q6--position.text_position .is-stable.item_wrap {
+.is-stable.footer {
   position: relative;
 }
 
-.q6--position.text_position .is-stable.item_wrap .position{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+.q6__box__inner.footer-text {
+  margin: 0 auto;
 }
 
-.is-flexible.text_position_flexible {
+.is-flexible.footer {
   position: relative;
 }
 
-.is-flexible.text_position_flexible .position {
+.q6__box__inner.footer-text {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%)
+  transform: translate(-50%,-50%);
 }
 
 /* 回答はここに書いてね */

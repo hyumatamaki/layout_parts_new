@@ -1,22 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-body {
-  width: 100%;
-}
 
-.wrap {
+.dashboard {
   margin: 0 auto;
 }
 
-table {
+.list {
   table-layout: fixed;
   width: 100%;
   text-align: center;
   border: solid #dedede 1px;
 }
 
-table tr:nth-child(odd) td {
+.list  tr:nth-child(odd) {
 	background-color: #ecf1f2;
 }
 
@@ -25,13 +22,13 @@ tr, td {
 }
 
 th {
-  /* padding: 10px 0; */
+  padding: 10px 0;
   border: solid #dedede 1px;
   color: #ffff;
   background-color: #2244aa;
 }
 
-.total {
+tfoot tr:last-child {
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */

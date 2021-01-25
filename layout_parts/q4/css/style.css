@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.bar-wrrap{
+.body {
   padding: 20px;
   background-color: #ecf1f2;
 }
 
-.bar-wrrap .bar{
+.bar{
   width: 100%;
   display: table;
   margin-bottom: 40px;
@@ -21,34 +21,31 @@
   display: table-cell;
 }
 
-.bar.top .left {
+.orange {
   background-color: #fdc8b8; 
   width: 100px; 
-  padding: 20px;
+  padding: 20px 0;
 }
 
-.bar.top .center {
+.pink {
   background-color: #e0abd9; 
-  width: 100vw
 }
 
-.bar.top .right {
+.blue {
   background-color: #b6d8ed; 
   width: 100px; 
 }
 
-.bar.bottom .left {
+.yellow {
   background-color: #e5d32e; 
-  width: 100vw; 
-  padding: 20px;
+  padding: 20px 0;
 }
 
-.bar.bottom .center {
+.red {
   background-color: #ec8f9a; 
-  width: 100vw; 
 }
 
-.bar.bottom .right {
+.green {
   background-color: #8fdcad; 
   width: 500px; 
 }
