@@ -2,4 +2,92 @@
 
 /* 回答はここに書いてね */
 
+/* 共通*/
+.content-text {
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.content-text-left, .content-text-right {
+  font-size: 16px;
+}
+/* -----------------*/
+
+.q7--float .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7--float .content-text {
+  float: left;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+
+.q7--float .content-text:first-child {
+  margin-left: 0;
+}
+
+.q7--table .table-content {
+  display: table;
+}
+
+.q7--table .content {
+  display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.q7--table .content:first-child {
+  padding-left: 0;
+}
+
+.q7--inlineblock .content {
+  display: block;
+  font-size: 0;
+}
+
+.q7--inlineblock .content-text {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+
+.q7--inlineblock .content-text:first-child {
+  margin-left: 0px;
+}
+
+.q7--flex .content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.q7--margin .is-full.content {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.q7--margin .stable-box {
+  display: inline-block;
+  width: 300px;
+  box-sizing: border-box;
+  vertical-align: top;
+
+}
+
+.q7--margin .flexible-box {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
 /* 回答はここに書いてね */
