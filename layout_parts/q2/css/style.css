@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.body {
+.q2_body {
   width: 940px;
   padding: 20px;
   margin: 0 auto;
@@ -16,13 +16,13 @@
   line-height: 22px;
 }
 
-.balloon {
+.img-left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.illumination {
+.img-right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;

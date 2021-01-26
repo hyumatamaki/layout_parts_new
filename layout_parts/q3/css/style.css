@@ -17,18 +17,18 @@
 	background-color: #ecf1f2;
 }
 
-tr, td {
+.list tr, .list td {
   border: solid #dedede 1px;
 }
 
-th {
+.list th {
   padding: 10px 0;
   border: solid #dedede 1px;
   color: #ffff;
   background-color: #2244aa;
 }
 
-tfoot tr:last-child {
+.list tfoot tr{
   border-top: dashed 2px #000;
 }
 /* 回答はここに書いてね */
