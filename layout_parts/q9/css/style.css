@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.bubble {
-  display: block;
-}
-
 .bubble-text {
   position: relative;
   width: 500px;
@@ -32,12 +28,9 @@
 
 .bubble-text:after {
   left: 39px;
-  width: 0px;
-  height: 0px;
   border-width: 21px 21px 0 21px;
   border-color: #222 transparent;
   bottom: -26px;
-
   z-index: -1;
 }
 /* 回答はここに書いてね */
